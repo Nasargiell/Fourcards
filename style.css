@@ -46,6 +46,7 @@ section {
   border-top: 5px solid hsl(180, 62%, 55%);
   border-radius: 6px;
   padding: 20px;
+  height: 250px;
 }
 
 .card img {
@@ -63,6 +64,7 @@ section {
   border-radius: 6px;
   padding: 20px;
   box-shadow: 5px 6px 22px red;
+  height: 250px;
 }
 .card1 img {
   margin-left: 80%;
@@ -73,7 +75,7 @@ section {
   border-top: 5px solid hsl(34, 97%, 64%);
   border-radius: 6px;
   padding: 20px;
-
+  height: 250px;
   box-shadow: 5px 6px 22px hsl(34, 97%, 64%);
 }
 .card2 img {
@@ -87,6 +89,7 @@ section {
   border-top: 5px solid hsl(180, 62%, 55%);
   border-radius: 6px;
   padding: 20px;
+  height: 250px;
 }
 .card3 img {
   text-align: right;
