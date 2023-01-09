@@ -34,9 +34,13 @@ body {
   text-align: center;
 }
 section {
+  margin-top: 3%;
   color: hsl(234, 12%, 34%);
   display: flex;
   flex-direction: row;
+}
+section h3 {
+  font-size: 20px;
 }
 
 .card {
@@ -45,12 +49,16 @@ section {
   box-shadow: 5px 6px 22px hsl(180, 62%, 55%);
   border-top: 5px solid hsl(180, 62%, 55%);
   border-radius: 6px;
-  padding: 20px;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
   height: 250px;
+}
+.card p {
+  text-align: left;
 }
 
 .card img {
-  text-align: right;
   margin-left: 80%;
 }
 
@@ -62,9 +70,14 @@ section {
   justify-content: center;
   border-top: 5px solid red;
   border-radius: 6px;
-  padding: 20px;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
   box-shadow: 5px 6px 22px red;
   height: 250px;
+}
+.card1 p {
+  text-align: left;
 }
 .card1 img {
   margin-left: 80%;
@@ -74,25 +87,33 @@ section {
   justify-content: center;
   border-top: 5px solid hsl(34, 97%, 64%);
   border-radius: 6px;
-  padding: 20px;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
   height: 250px;
   box-shadow: 5px 6px 22px hsl(34, 97%, 64%);
 }
+.card2 p {
+  text-align: left;
+}
 .card2 img {
-  text-align: right;
   margin-left: 80%;
 }
 .card3 {
   flex: 33%;
   align-self: center;
-  box-shadow: 5px 6px 22px hsl(180, 62%, 55%);
-  border-top: 5px solid hsl(180, 62%, 55%);
+  box-shadow: 5px 6px 22px hsl(212, 86%, 64%);
+  border-top: 5px solid hsl(212, 86%, 64%);
   border-radius: 6px;
-  padding: 20px;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
   height: 250px;
 }
+.card3 p {
+  text-align: left;
+}
 .card3 img {
-  text-align: right;
   margin-left: 80%;
 }
 @media screen and (max-width: 950px) {
