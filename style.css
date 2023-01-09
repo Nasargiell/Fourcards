@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: auto;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  background: hsl(0, 0%, 98%);
+}
+
+.pai {
+  padding: 5%;
+  display: flex;
+  flex-flow: row wrap;
+  /* border: 1px solid pink; */
+}
+
+.texto {
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.pai h2 {
+  color: hsl(234, 12%, 34%);
+  line-height: 0.6;
+  font-size: 42px;
+  font-weight: lighter;
+  text-align: center;
+}
+.pai p {
+  color: hsl(234, 12%, 34%);
+  text-align: center;
+}
+section {
+  color: hsl(234, 12%, 34%);
+  display: flex;
+  flex-direction: row;
+}
+
+.card {
+  flex: 33%;
+  align-self: center;
+  box-shadow: 5px 6px 22px hsl(180, 62%, 55%);
+  border-top: 5px solid hsl(180, 62%, 55%);
+  border-radius: 6px;
+  padding: 20px;
+}
+
+.card img {
+  text-align: right;
+  margin-left: 80%;
+}
+
+.card-meio {
+  flex: 33%;
+  margin: 2%;
+}
+.card1 {
+  justify-content: center;
+  border-top: 5px solid red;
+  border-radius: 6px;
+  padding: 20px;
+  box-shadow: 5px 6px 22px red;
+}
+.card1 img {
+  margin-left: 80%;
+}
+.card2 {
+  margin-top: 100px;
+  justify-content: center;
+  border-top: 5px solid hsl(34, 97%, 64%);
+  border-radius: 6px;
+  padding: 20px;
+
+  box-shadow: 5px 6px 22px hsl(34, 97%, 64%);
+}
+.card2 img {
+  text-align: right;
+  margin-left: 80%;
+}
+.card3 {
+  flex: 33%;
+  align-self: center;
+  box-shadow: 5px 6px 22px hsl(180, 62%, 55%);
+  border-top: 5px solid hsl(180, 62%, 55%);
+  border-radius: 6px;
+  padding: 20px;
+}
+.card3 img {
+  text-align: right;
+  margin-left: 80%;
+}
+@media screen and (max-width: 950px) {
+  .pai {
+    margin: auto;
+    display: block;
+  }
+  .pai h2 {
+    line-height: normal;
+  }
+  .texto {
+    margin: auto;
+  }
+
+  section {
+    display: block;
+  }
+  .card {
+    max-width: 100%;
+    margin-bottom: 10%;
+  }
+
+  .card-meio {
+    flex: 33%;
+    margin: auto;
+  }
+
+  .card1 {
+    margin-bottom: 10%;
+  }
+  .card2 {
+    margin-top: auto;
+    margin-bottom: 10%;
+  }
+}
+
+p {
+  text-align: center;
+}
